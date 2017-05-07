@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蓝牙门禁2.0</string>
+
+    <string name="message_close">关闭</string>
+    <string name="message_ble_not_found">没有发现门禁设备</string>
+
+    <string name="text_button_open">点我开门</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string name="pref_title_uuid">服务发现</string>
+    <string name="pref_title_unlock_way">解锁方式</string>
+    <string name="pref_title_unlock_shakes">摇一摇</string>
+    <string name="pref_title_unlock_slanted">倾斜</string>
+    <string name="pref_title_use_ble">使用 BLE</string>
+
+    <string name="pref_title_shakes_sensitivity">摇一摇设置</string>
+    <string-array name="pref_shakes_sensitivity_list_titles">
+        <item>敏感</item>
+        <item>正常</item>
+        <item>不敏感</item>
+    </string-array>
+    <string-array name="pref_shakes_sensitivity_list_values">
+        <item>17</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="pref_title_notifications_way">解锁反馈</string>
+
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_title_vibrate">震动</string>
+    <string name="pref_ringtone_silent">静音</string>
+
+    <string name="pref_default_password">FFFFFF</string>
+    <string name="pref_title_uuid1">UUID1</string>
+    <string name="pref_title_uuid2">UUID2</string>
+    <string name="pref_title_open_door_id">OpenDoorId</string>
+    <string name="pref_title_open_door_pwd">默认密码</string>
+
+</resources>

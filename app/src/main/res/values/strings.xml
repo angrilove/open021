@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BleDoor 2.0</string>
+
+    <string name="message_close">close</string>
+    <string name="message_ble_not_found">Can not found BleBluetooth</string>
+
+    <string name="text_button_open">Click me &amp; Open The Door</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_title_unlock_way">Unlock</string>
+    <string name="pref_title_unlock_shakes">Enable shakes unlock</string>
+    <string name="pref_title_unlock_slanted">Enable slanted unlock</string>
+
+    <string name="pref_title_shakes_sensitivity">Shakes sensitivity</string>
+    <string-array name="pref_shakes_sensitivity_list_titles">
+        <item>Sensitive</item>
+        <item>Normal</item>
+        <item>Insensitive</item>
+    </string-array>
+    <string-array name="pref_shakes_sensitivity_list_values">
+        <item>17</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="pref_title_notifications_way">Notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_default_password">Default password</string>
+    <string name="pref_default_password">FFFFFF</string>
+
+</resources>

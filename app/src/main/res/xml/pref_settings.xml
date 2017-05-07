@@ -1,0 +1,96 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_title_uuid">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="use_ble"
+            android:summary="低功耗，节约电力"
+            android:title="@string/pref_title_use_ble"/>
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="ffe5"
+            android:summary="ffe5"
+            android:inputType="textVisiblePassword"
+            android:key="text_uuid1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_uuid1"/>
+
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="ffe9"
+            android:summary="ffe9"
+            android:inputType="textVisiblePassword"
+            android:key="text_uuid2"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_uuid2"/>
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="000001"
+            android:summary="000001"
+            android:inputType="textVisiblePassword"
+            android:key="text_open_door_id"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_open_door_id"/>
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_password"
+            android:summary="@string/pref_default_password"
+            android:inputType="textVisiblePassword"
+            android:key="text_open_door_pwd"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_open_door_pwd"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_unlock_way">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="unlock_way_slant"
+            android:title="@string/pref_title_unlock_slanted"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="unlock_way_shakes"
+            android:title="@string/pref_title_unlock_shakes"/>
+
+        <ListPreference
+            android:defaultValue="19"
+            android:entries="@array/pref_shakes_sensitivity_list_titles"
+            android:entryValues="@array/pref_shakes_sensitivity_list_values"
+            android:key="shakes_sensitivity"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_shakes_sensitivity"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_notifications_way">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="notifications_vibrate"
+            android:title="@string/pref_title_vibrate"/>
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:key="notifications_ringtone"
+            android:ringtoneType="notification"
+            android:title="@string/pref_title_ringtone"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
